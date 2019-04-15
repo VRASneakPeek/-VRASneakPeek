@@ -16,7 +16,7 @@ Have a quick overview of the following diagram to understand the used Architectu
 1.	Create Azure IoT Hub
 2.	Create Azure IoT Device in the IoT Hub
 3.	Connect Azure IoT Device to the IoT Hub (Cloud)
-4.	Check Telemetry messages from device to cloud with the Device Explorer
+4.	Check Telemetry messages from device to cloud with the Azure Device Explorer
 5.	Steer the robot Left/Right with the UWP App
 6.	Move the robot racer forward by using gesture control on the UWP App
 
@@ -49,7 +49,7 @@ An IoT Hub is already created for you as this is somewhat time consuming. TheAzu
 12.	Turn on the On/Off button of the battery pack on the second level of the Robot Racer
 13.	Now plug in the USB cable of your robot racer
 14.	Give it some time, the robot racer will turn left when ready – your robot racer is now connected to the cloud!
-15.	To verify this , open the Device Explorer on your computer (located on the Desktop and Task bar)
+15.	To verify this , open the Azure Device Explorer on your computer (located on the Desktop and Task bar)
 16.	Go to the Data Tab and Click Monitor
 17.	You should see the messages form the device coming in on screen. These messages are coming from the device you created on the IoT Hub. 
 18.	Show this screen to the instructor!
