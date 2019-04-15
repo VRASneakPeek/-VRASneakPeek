@@ -239,8 +239,8 @@ namespace VRA.SneakPeek2019.Pages
             {
                 try
                 {
-                    if (DeviceId != "<<FILL_IN_NAME_HERE>>")
-                        await _serviceClient.InvokeDeviceMethodAsync(DeviceId, new CloudToDeviceMethod(method));
+                    //if (DeviceId != "<<FILL_IN_NAME_HERE>>")
+                    //    await _serviceClient.InvokeDeviceMethodAsync(DeviceId, new CloudToDeviceMethod(method));
 
                     TextBlockInvokedMethod.Text = method + Environment.NewLine + "invoked";
                     GestureState.ExecutedMethod = method;
