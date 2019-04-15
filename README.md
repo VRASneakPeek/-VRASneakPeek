@@ -35,6 +35,7 @@ An IoT Hub is already created for you as this is somewhat time consuming. TheAzu
 1.	To save some time, the code for your Robt Racer is already downloaded from the Git repo onto your machine under C:\Temp\VRASneakPeek, navigate to that folder and go to the folder of your Robot Racer “DarkKnight” or “DustEater”, then go to the Wifi folder
 2.	Open the project.code-workspace file, Visual Sudio Code should now open
 3.	The thing we want to look for here, is the Connection String we copied earlier. Find the following line of code (line 95 😉)
+
 ![](img/deviceConnectionString.png)
 4.	Change the Connection String into the copied connection string from the Azure portal
 5.	Connect your robot racer to your computer, ignore all notifications which are shown on the screen
@@ -42,6 +43,7 @@ An IoT Hub is already created for you as this is somewhat time consuming. TheAzu
 7.	Hit F1 and select Azure IoT Device Workbench: Upload Device Code
 8.	If for some reason the upload fails, just try the upload procedure again
 9.	If you get the following notice, all is OK
+
 ![](img/uploadReady.png)
 10.	Now disconnect your racer from the computer and place it on the marked location on the road map / playground
 11.	Do NOT plug the USB cable of the Robot Racer in yet!
@@ -93,7 +95,6 @@ First, some learning is applicable here. Following images show how to steer the 
 8.	With what you’ve learned above, you should be able to steer the robot forward and make it stop in time 😉
 9.	Steer your robot over the finish line! Claim your prize…
 
-![](img/logo.png)
 
-# The End
+![](img/logo.png)
 
