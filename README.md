@@ -25,7 +25,7 @@ Have a quick overview of the following diagram to understand the used Architectu
 An IoT Hub is already created for you as this is somewhat time consuming. TheAzure IoT Hub is an enriched Event Hub and will be served as gateway to your custom business applications. You can use this “hub” to receive high loads of Telemetry messages and send Cloud to Device Messages (commands).
 
 ### Create a device registration in Azure
-1.	Go to the Azure Portal and login using your provided credentials if needed
+1.	Go to the Azure Portal (https://portal.azure.com/) and login using your provided credentials if needed
 2.	In the Search bar on the top of the screen, look for your already created IoT Hub “DustEaterHub” or “DarkKnightHub” and go to the found resource
 3.	Click the IoT devices tab and Add a new IoT Device
 4.	In the Device ID field, fill in the name of your Robot Racer “DustEater” or “DarkKnight”
