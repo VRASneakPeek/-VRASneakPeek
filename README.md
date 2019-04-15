@@ -39,7 +39,7 @@ An IoT Hub is already created for you as this is somewhat time consuming. TheAzu
 ![](img/deviceConnectionString.png)
 4.	Change the Connection String into the copied connection string from the Azure portal
 5.	Connect your robot racer to your computer, ignore all notifications which are shown on the screen
-6.	Click the COM port in the right corner of the screen and select the shown COM port in the search bar / command palette on the middle top of the screen
+6.	Click the COM port in the right corner of the screen and select the shown COM port (Silicon labs) in the search bar / command palette on the middle top of the screen
 7.	Hit F1 and select Azure IoT Device Workbench: Upload Device Code
 8.	If for some reason the upload fails, just try the upload procedure again
 9.	If you get the following notice, all is OK
