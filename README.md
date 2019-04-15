@@ -92,7 +92,7 @@ First, some learning is applicable here. Following images show how to steer the 
 5.	When you feel confident, stop the application from running and uncomment the following lines of code
 ![](img/codeCommented.png)
 6.	Start the app again, now again browse to the second tab and hit start to start the webcam
-7.	FYI: MAKE SURE TO STOP THE ROBOT IN TIME, there is always some delay on the gesture control in combination with steer robot command
+7.	FYI: MAKE SURE TO STOP THE ROBOT IN TIME, there is always some delay on the gesture control in combination with steer robot command. A good tip is to make the robot stop a few times on the road ahead to the finish line to get a good feel of stopping and starting.
 8.	With what you’ve learned above, you should be able to steer the robot forward and make it stop in time 😉
 9.	Steer your robot over the finish line! Claim your prize…
 
