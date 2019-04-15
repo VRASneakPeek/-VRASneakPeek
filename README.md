@@ -62,7 +62,7 @@ Now that your robot is connected to the cloud, we need to make sure the robot is
 2.	Visual Studio 2019 Community Edition should now open showing you an UWP app which you will use throughout the rest of this challenge
 3.	Go to the Solution Explorer and navigate to the Pages\SamplePage.xaml.cs file
 4.	Find the following line and modify your device id in “DustEater” or “DarkKnight”
- 
+![](img/devId.png)
 5.	Now we need to adjust the IoT Hub Connection String in the ServiceClientFactory. Navigate to Factories\ServiceClientFactory.cs 
 6.	Go back to the Azure Portal, go to the landing page of your IoT Hub “DustEaterHub” or “DarkKnightHub”. If you cannot find it, search for it in the Search Bar on the middle top of the screen
 7.	When on the landing page, go to the Shared access policies tab and click the iothubowner policy
