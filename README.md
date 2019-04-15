@@ -16,7 +16,7 @@ Have a quick overview of the following diagram to understand the used Architectu
 1.	Create Azure IoT Hub
 2.	Create Azure IoT Device in the IoT Hub
 3.	Connect Azure IoT Device to the IoT Hub (Cloud)
-4.	Check Telemetry messages from device to cloud with the Device Explorer
+4.	Check Telemetry messages from device to cloud with the Azure Device Explorer
 5.	Steer the robot Left/Right with the UWP App
 6.	Move the robot racer forward by using gesture control on the UWP App
 
@@ -33,13 +33,13 @@ An IoT Hub is already created for you as this is somewhat time consuming. TheAzu
 6.	Now co to the newly created device (click it!) and copy the Connection string (primary key)
 
 ### Upload your code and Connection String to the Robot Racer
-1.	To save some time, the code for your Robt Racer is already downloaded from the Git repo onto your machine under C:\Temp\VRASneakPeek, navigate to that folder and go to the folder of your Robot Racer “DarkKnight” or “DustEater”, then go to the Wifi folder
+1.	To save some time, the code for your Robot Racer is already downloaded from the Git repo onto your machine under C:\Temp\VRASneakPeek, navigate to that folder and go to the folder of your Robot Racer “DarkKnight” or “DustEater”, then go to the Wifi folder
 2.	Open the project.code-workspace file, Visual Sudio Code should now open
-3.	The thing we want to look for here, is the Connection String we copied earlier. Find the following line of code (line 95 😉)
+3.	The thing we want to look for here, is the Connection String we copied earlier. Find the following line of code in the device.ino file (line 95 😉)
 ![](img/deviceConnectionString.png)
 4.	Change the Connection String into the copied connection string from the Azure portal
 5.	Connect your robot racer to your computer, ignore all notifications which are shown on the screen
-6.	Click the COM port in the right corner of the screen and select the shown COM port in the search bar / command palette on the middle top of the screen
+6.	Click the COM port in the right corner of the screen and select the shown COM port (Silicon labs) in the search bar / command palette on the middle top of the screen
 7.	Hit F1 and select Azure IoT Device Workbench: Upload Device Code
 8.	If for some reason the upload fails, just try the upload procedure again
 9.	If you get the following notice, all is OK
@@ -49,17 +49,17 @@ An IoT Hub is already created for you as this is somewhat time consuming. TheAzu
 12.	Turn on the On/Off button of the battery pack on the second level of the Robot Racer
 13.	Now plug in the USB cable of your robot racer
 14.	Give it some time, the robot racer will turn left when ready – your robot racer is now connected to the cloud!
-15.	To verify this , open the Device Explorer on your computer (located on the Desktop and Task bar)
+15.	To verify this , open the Azure Device Explorer on your computer (located on the Desktop and Task bar)
 16.	Go to the Data Tab and Click Monitor
 17.	You should see the messages form the device coming in on screen. These messages are coming from the device you created on the IoT Hub. 
 18.	Show this screen to the instructor!
 If your robot for some reason is rebooting and turning left again, please ask the instructor 😉
 
-## Steer the robot back forward using burst movement
-Now that your robot is connected to the cloud, we need to make sure the robot is pointing forward to get it across the finish line. We will be doing this by using an UWP app which will send Cloud to Device commands to make the robot racer move around
+## Steer the robot forward using burst movement
+Now that your robot is connected to the cloud, we need to make sure the robot is pointing forward to get it across the finish line. We will be doing this by using an UWP app which will send Cloud to Device commands to make the robot racer move around.
 
 1.	Open the folder containing your code at C:\Temp\VRASneakPeek and open the VRA.SneakPeek2019.sln file
-2.	Visual Studio 20017 Community Edition should now open showing you an UWP app which you will use throughout the rest of this challenge
+2.	Visual Studio 2019 Community Edition should now open showing you an UWP app which you will use throughout the rest of this challenge
 3.	Go to the Solution Explorer and navigate to the Pages\SamplePage.xaml.cs file
 4.	Find the following line and modify your device id in “DustEater” or “DarkKnight”
  
