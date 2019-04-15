@@ -59,7 +59,7 @@ If your robot for some reason is rebooting and turning left again, please ask th
 Now that your robot is connected to the cloud, we need to make sure the robot is pointing forward to get it across the finish line. We will be doing this by using an UWP app which will send Cloud to Device commands to make the robot racer move around.
 
 1.	Open the folder containing your code at C:\Temp\VRASneakPeek and open the VRA.SneakPeek2019.sln file
-2.	Visual Studio 20017 Community Edition should now open showing you an UWP app which you will use throughout the rest of this challenge
+2.	Visual Studio 2019 Community Edition should now open showing you an UWP app which you will use throughout the rest of this challenge
 3.	Go to the Solution Explorer and navigate to the Pages\SamplePage.xaml.cs file
 4.	Find the following line and modify your device id in “DustEater” or “DarkKnight”
  
