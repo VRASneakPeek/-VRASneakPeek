@@ -72,7 +72,9 @@ Now that your robot is connected to the cloud, we need to make sure the robot is
 11.	Hit the Run button
 12.	Play around with the arrows, give it some time to respond! Depending on the connectivity the Robot Racer will respond with some latency. Only hit the arrow once will trigger a burst move!
 13.	Try to move the robot in a somewhat straight direction pointing to the finish line
-14.	When the front of the robot is facing the finish line, show the instructor. FYI” If the robot is not fully aligned, 
+14.	When the front of the robot is facing the finish line, show the instructor. 
+
+FYI: If the robot is not fully aligned, it is allowed to align it manually.
 
 ## Move the robot forward to the finish line and claim your prize
 In order to win the race, the robot racer needs to move over the finish line. We will do this by using gesture control. Images are recorded using the webcam which are at a later time being processed by a model trained with machine learning to capture the context of these images, this technique is called “Object Detection”.
