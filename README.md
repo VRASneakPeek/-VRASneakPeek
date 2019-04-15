@@ -1,6 +1,6 @@
 # VanRoey.be Sneak Peek 2019 IoT Challenge
 Welcome to our VanRoey.be Sneak Peek challenge. Are you up for it? Does your team own the skills to become todays winner? 
-The main goal of this challenge is to steer a robot over a finish line. This can be done trough connecting your robot to Microsoft’s cloud platform, Microsoft Azure. Let’s not waste too much time and get to action!
+The main goal of this challenge is to steer a robot over a finish line. This can be done by connecting your robot to Microsoft’s cloud platform, Microsoft Azure. Let’s not waste too much time and get to action!
 
 ## Challenge scenario
 
