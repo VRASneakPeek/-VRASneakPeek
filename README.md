@@ -55,7 +55,7 @@ An IoT Hub is already created for you as this is somewhat time consuming. TheAzu
 18.	Show this screen to the instructor!
 If your robot for some reason is rebooting and turning left again, please ask the instructor 😉
 
-## Steer the robot back forward using burst movement
+## Steer the robot forward using burst movement
 Now that your robot is connected to the cloud, we need to make sure the robot is pointing forward to get it across the finish line. We will be doing this by using an UWP app which will send Cloud to Device commands to make the robot racer move around.
 
 1.	Open the folder containing your code at C:\Temp\VRASneakPeek and open the VRA.SneakPeek2019.sln file
