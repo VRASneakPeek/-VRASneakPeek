@@ -6,7 +6,7 @@ The main goal of this challenge is to steer a robot over a finish line. This can
 
 The challenge consists of three main components:
 1.	Connect the robot to the Azure platform (robot will spin left for an instance)
-2.	Steer the robot back forward using a Windows Universal App connected to the cloud
+2.	Steer the robot back pointing forward using a Windows Universal App connected to the cloud
 3.	Move the robot over the finish line using gesture control -> winner!
 Have a quick overview of the following diagram to understand the used Architecture and dataflow:
 
