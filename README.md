@@ -66,7 +66,7 @@ Now that your robot is connected to the cloud, we need to make sure the robot is
 6.	Go back to the Azure Portal, go to the landing page of your IoT Hub “DustEaterHub” or “DarkKnightHub”. If you cannot find it, search for it in the Search Bar on the middle top of the screen
 7.	When on the landing page, go to the Shared access policies tab and click the iothubowner policy
 8.	A navigation pane opens, copy the value of the Connection string—primary key
-9.	Paste the value inside your Visual Studio 2017 Community Edition instance
+9.	Paste the value inside your Visual Studio 2019 Community Edition instance
 10.	Make sure your current configuration is set to Debug x64
 11.	Hit the Run button
 12.	Play around with the arrows, give it some time to respond! Depending on the connectivity the Robot Racer will respond with some latency. Only hit the arrow once will trigger a burst move!
