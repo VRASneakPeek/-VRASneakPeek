@@ -33,7 +33,7 @@ An IoT Hub is already created for you as this is somewhat time consuming. TheAzu
 6.	Now co to the newly created device (click it!) and copy the Connection string (primary key)
 
 ### Upload your code and Connection String to the Robot Racer
-1.	To save some time, the code for your Robt Racer is already downloaded from the Git repo onto your machine under C:\Temp\VRASneakPeek, navigate to that folder and go to the folder of your Robot Racer “DarkKnight” or “DustEater”, then go to the Wifi folder
+1.	To save some time, the code for your Robot Racer is already downloaded from the Git repo onto your machine under C:\Temp\VRASneakPeek, navigate to that folder and go to the folder of your Robot Racer “DarkKnight” or “DustEater”, then go to the Wifi folder
 2.	Open the project.code-workspace file, Visual Sudio Code should now open
 3.	The thing we want to look for here, is the Connection String we copied earlier. Find the following line of code (line 95 😉)
 ![](img/deviceConnectionString.png)
