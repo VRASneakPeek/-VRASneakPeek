@@ -35,7 +35,7 @@ An IoT Hub is already created for you as this is somewhat time consuming. TheAzu
 ### Upload your code and Connection String to the Robot Racer
 1.	To save some time, the code for your Robot Racer is already downloaded from the Git repo onto your machine under C:\Temp\VRASneakPeek, navigate to that folder and go to the folder of your Robot Racer “DarkKnight” or “DustEater”, then go to the Wifi folder
 2.	Open the project.code-workspace file, Visual Sudio Code should now open
-3.	The thing we want to look for here, is the Connection String we copied earlier. Find the following line of code (line 95 😉)
+3.	The thing we want to look for here, is the Connection String we copied earlier. Find the following line of code in the device.ino file (line 95 😉)
 ![](img/deviceConnectionString.png)
 4.	Change the Connection String into the copied connection string from the Azure portal
 5.	Connect your robot racer to your computer, ignore all notifications which are shown on the screen
