@@ -1,0 +1,7 @@
+{
+    "board": "esp32:esp32:featheresp32",
+    "sketch": "device.ino",
+    "output": "./.build",
+    "port": "COM8",
+    "configuration": "FlashFreq=80,UploadSpeed=921600,DebugLevel=none"
+}

@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="VRA.SneakPeek2019.Pages.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VRA.SneakPeek2019"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="Black">
+        <CaptureElement Name="PreviewControl"/>
+        <TextBlock x:Name="TextBlockResults" Foreground="white" FontSize="40px" Text="TEST" Height="200" FontFamily="Segoe UI Light"  />
+        <TextBlock x:Name="TextBlockInvokedMethod" FontSize="80px" Width="800" HorizontalAlignment="Left" TextAlignment="Center" Foreground="white" FontFamily="Segoe UI Light" Text="ssssdsd" Margin="403,789,0,22" />
+        <Canvas x:Name="objectDetectionVisualizationCanvas"/>
+        </Grid>
+</Page>
