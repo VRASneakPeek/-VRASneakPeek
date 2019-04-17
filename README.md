@@ -69,7 +69,7 @@ Now that your robot is connected to the cloud, we need to make sure the robot is
 8.	A navigation pane opens, copy the value of the Connection string—primary key
 9.	Paste the value inside your Visual Studio 2019 Community Edition instance
 10.	Make sure your current configuration is set to Debug x64
-11.	Hit the Run button
+11.	Hit the Run button and make sure the application is maximized
 12.	Play around with the arrows, give it some time to respond! Depending on the connectivity the Robot Racer will respond with some latency. Only hit the arrow once will trigger a burst move!
 13.	Try to move the robot in a somewhat straight direction pointing to the finish line
 14.	When the front of the robot is facing the finish line, show the instructor. 
