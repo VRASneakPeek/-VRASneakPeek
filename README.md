@@ -91,7 +91,7 @@ First, some learning is applicable here. Following images show how to steer the 
 2.	Click start, this will trigger the webcam to show
 3.	Currently, the code to send the commands to the robot is commented out in the SamplePage.xaml.cs file, we will first start the app and play around with it without the real code.
 4.	Make SURE you get a good feeling about this. Use your hand and check the different gestures like shown in above picture. It helps to wave a bit (not too much) with your hand and open your fingers very good so the model can understand your movement better. 
-5.	Now we will start practicing with the robot racer, stop the application from running and uncomment the following lines of code in the SamplePage.xaml.cs file: 
+5.	Now we will start practicing with the robot racer, stop the application from running and uncomment the following lines of code (DO NOT CHANGE THE DEVICEID HERE) in the SamplePage.xaml.cs file: 
 ![](img/codeCommented.png)
 6.	Start the app again, now again browse to the second tab and hit start to start the webcam
 7.	FYI: MAKE SURE TO STOP THE ROBOT IN TIME, there is always some delay on the gesture control in combination with the steer robot command. A good tip is to make the robot stop a few times on the road ahead to the finish line to get a good feeling of stopping and starting.
