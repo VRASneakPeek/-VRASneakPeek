@@ -45,7 +45,6 @@ namespace VRA.SneakPeek2019.Pages
         private bool _isVideoCapturing;
 
         private ICommand _onLeft;
-        private ICommand _onRight;
         private ICommand _onStartVideoCapture;
 
         private string DeviceId = "<<FILL_IN_NAME_HERE>>";
