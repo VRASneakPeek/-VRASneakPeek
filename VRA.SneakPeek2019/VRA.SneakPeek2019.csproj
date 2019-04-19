@@ -139,6 +139,7 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="Assets\images.png" />
     <Content Include="Assets\left.png" />
     <Content Include="Assets\model.onnx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

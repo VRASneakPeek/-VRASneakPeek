@@ -86,28 +86,6 @@ namespace VRA.SneakPeek2019.Pages
         }
 
         /// <summary>
-        /// Gets the command to go right.
-        /// </summary>
-        /// <value>
-        /// The on right-command.
-        /// </value>
-        public ICommand OnRight
-        {
-            get => _onRight ?? (_onRight = new CommandHandler(async () =>
-            {
-                try
-                {
-                    if (DeviceId != "<<FILL_IN_NAME_HERE>>")
-                        await _serviceClient.InvokeDeviceMethodAsync(DeviceId, new CloudToDeviceMethod("burstRight"));
-                }
-                catch (Exception)
-                {
-                    // ignored
-                }
-            }));
-        }
-
-        /// <summary>
         /// Gets the command to start capturing video.
         /// </summary>
         /// <value>
